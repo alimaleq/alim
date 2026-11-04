@@ -74,7 +74,9 @@ python3 bazi/tools/destiny_matrix.py 1995-12-02 1998-08-24
 
 ## Pengingat harian
 
-Ada tugas terjadwal **"Saran BaZi Harian"** yang mengirim saran setiap pagi sekitar **05:44 WIB**: pilar hari itu, energi untuk Alim, untuk pacar, untuk hubungan, apa yang sebaiknya dilakukan/dihindari, dan hal penting minggu itu.
+Ada tugas terjadwal **"Saran BaZi Harian"** yang memposting saran setiap pagi sekitar **05:44 WIB** ke sesi Claude Code **"📅 Saran BaZi Harian"**: pilar hari itu, energi untuk Alim, untuk pacar, untuk hubungan, apa yang sebaiknya dilakukan/dihindari, dan hal penting minggu itu.
+
+Versi WhatsApp (dikirim lewat Mila): lihat [[07-Pengingat-WA-Mila]] dan `python3 bazi/tools/daily_brief.py`.
 
 ## Disclaimer
 

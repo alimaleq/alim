@@ -43,7 +43,9 @@ Repo ini berisi catatan pribadi Alim: bacaan BaZi, Destiny Matrix, dan rencana a
 - Pilar hari: jangkar 1949-10-01 = 甲子. Bulan/tahun: bujur matahari (立春 ≈ 4 Feb).
 
 ## Pengingat harian
-- Tugas terjadwal **"Saran BaZi Harian"** mengirim saran tiap pagi ±**05:44 WIB** (pilar hari, energi Alim/pacar/kalian, lakukan/hindari, hal penting minggu itu).
+- Tugas terjadwal **"Saran BaZi Harian"** memposting saran tiap pagi ±**05:44 WIB** ke sesi Claude Code **"📅 Saran BaZi Harian"** (sesi khusus yang muncul di daftar sesi). Tugas versi lama (sesi baru tiap pagi, tidak muncul di daftar) sudah dinonaktifkan.
+- Isi/format pengingat hanya bisa diubah dari sesi "📅 Saran BaZi Harian" itu sendiri (Alim yang minta di sana).
+- Versi WhatsApp: `python3 bazi/tools/daily_brief.py [YYYY-MM-DD]` membuat pesan siap kirim (kerjaan, uang, konten, kesehatan, pacar, hubungan, jam terbaik, 6 hari ke depan). Rencana: Mila mengirimnya ke WA tiap pagi; lihat `bazi/07-Pengingat-WA-Mila.md`.
 
 ## Pedoman untuk bacaan berikutnya
 - **Hitung ulang pilar pakai tools**, jangan dari ingatan. Selalu sebut tanggal dalam WIB.
